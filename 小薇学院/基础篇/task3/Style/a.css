@@ -1,0 +1,59 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+#container{
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #999;
+	margin: 10px;
+	height: auto;
+	overflow: auto;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	background: #eee;
+	border: 1px #999 solid;
+
+}
+
+#team{
+	float:left; 
+	width: 200px;
+}
+
+#intrduce{
+	background: white;
+	border: 1px #999 solid;
+	margin-left: 273px;
+	margin-right: 193px;
+	margin-top: 15px;
+}
+
+#logoGroup{
+	float: right;
+	width: 120px;
+}
+
+#team,#logoGroup{
+	background: white;
+	border: 1px #999 solid;
+	margin: 15px;
+	padding: 15px;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+    justify-content:center;
+    align-items:Center;
+    flex-direction:column;
+}
+
+li{
+	display: block;
+	margin: 10px;
+}
