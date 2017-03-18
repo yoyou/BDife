@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	margin: 0 auto;
+	width: 1280px;
+	height: 4554px;	
+}
+
+header{
+	background-color: #fff;
+	height: 56px;
+}
+/*logo*/
+header>img{
+	float: left;
+	margin-left: 60px;
+	margin-top: 10px;
+	height: 31px;
+	width: 31px;
+}
+
+header> span{
+	float: left;
+	font-size: 21px;
+	font-family: 黑体;
+	line-height: 56px;
+	margin-left: 10px;
+}
+
+/*导航栏*/
+header nav{
+	margin-right: 66px;
+	margin-top: 18px;
+	float: right;
+}
+
+header ul{
+	list-style: none;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+header nav li{
+	margin-left: 46px;
+	float: left;
+	color: #787b83;
+}
+
+/*登入按鈕*/
+.login{
+	height: 18px;
+	width: 48px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.login a {
+	text-decoration: none;
+	color: #ea6f6e;
+	display: inline-block;
+	//width: 26px;
+	//margin-left: 4px;
+	line-height: 18px;
+}
+footer{
+	height: 416px;
+}
+
+.footer-link{
+	background-color: #32353e;
+	height: 270px;
+	text-align: center;
+	color: #fff;
+	padding-top: 90px;
+}
+
+.footer-link > h1{
+	font-size: 21px;
+	font-family: "黑体";
+	margin-bottom: 10px;
+}
+
+.footer-link > p{
+	font-size: 12px;
+	font-family: "宋体";
+	margin-bottom: 28px;
+}
+
+.footer-link > label{
+	display: inline-block;
+	overflow: hidden;
+	height: 40px;
+}
+
+.footer-link input[type=text]{
+	height: 42px;
+	width: 430px;
+	color: #aaaaaa;
+	border: 0px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	text-indent: 10px;
+}
+
+.footer-link input[type=button]{
+	height: 44px;
+	width: 80px;
+	background-color: #6f7178;
+	border: 0px;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.footer-nav{
+	list-style: none;
+	margin-top: 38px;
+}
+
+.footer-nav li{
+	display: inline;
+	margin-left: 28px;
+}
+
+.footer-last{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #fff;
+	background-color: #303039;
+	height: 58px;
+}
+
+.footer-last .newWorld{
+	float: left;
+	margin-left: 102px;
+	margin-top: 30px;
+}
+
+.footer-last .top{
+	float: right;
+	margin-right: 102px;
+	margin-top: 30px;
+}
+

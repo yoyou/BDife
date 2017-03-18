@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task03</title>
+</head>
+<body>
+	<ul id="source">
+		<li>北京空气质量：<b>90</b></li>
+		<li>上海空气质量：<b>90</b></li>
+		<li>天津空气质量：<b>10</b></li>
+		<li>广州空气质量：<b>90</b></li>
+		<li>深圳空气质量：<b>90</b></li>
+		<li>福州空气质量：<b>20</b></li>
+		<li>成都空气质量：<b>90</b></li>
+	</ul>
+	
+	<ul id="resort">
+		
+	</ul>
+	
+	<button id="sort-btn">排序</button>
+	<script type="text/javascript">
+		function getData(){
+			var data = new Array();
+			var tmp,str,value,tNode;
+			var list = document.getElementsByTagName("li");
+			console.log(list.length);
+			for(var i=0;i < list.length;i++){
+				tmp = new Array();
+				tNode = list[i].firstChild;
+				str= tNode.nodeValue;
+				value = str.slice(0, 2);
+				tmp.push(value);
+				value = tNode.nextSibling.innerHTML;
+				tmp.push(value);
+				data.push(tmp);
+			}
+			return data;
+		}
+
+		function render(data){
+			var arr = data;
+			var tmp;
+			var ul = document.getElementById("resort");
+			arr.sort(function(a,b){
+				return  a[1]-b[1];
+			});
+
+			arr.forEach(function(value,index,arr){
+				tmp = document.createElement("li");
+				tmp.innerHTML = value.toString();
+				ul.appendChild(tmp);
+			});
+			
+		};
+
+		var data = getData();
+		var button = document.getElementById("sort-btn");
+		button.onclick = function(){
+			render(data);
+		};
+	</script>
+</body>
+</html>

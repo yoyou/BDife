@@ -1,0 +1,17 @@
+input[type= number]{
+	margin-right: 10px;
+}
+
+section>input{
+	margin:10px;
+}
+
+main{
+	margin-top: 120px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	width: 350px;
+	height: 120px;
+	overflow: auto;
+}
