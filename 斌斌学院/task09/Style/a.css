@@ -1,0 +1,52 @@
+div{
+	border:1px solid #000;
+	display: flex;
+	margin: 3px;
+	font-size: 12px;
+	background-color: #fff;
+}
+
+.Super{
+	width: 1080px;
+	height: 200px;
+	display: flex;
+	padding: 10px 5px;
+}
+
+.car{
+	width: 400px;
+	padding: 10px 5px;
+	margin: 5px;
+	display: flex;	
+}
+
+.note{
+	width: 400px;
+	padding: 10px 5px;		
+	margin: 5px;
+	display: flex;
+}
+
+.fish{
+	width: 200px;
+}
+
+.apple{
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
