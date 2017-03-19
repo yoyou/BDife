@@ -1,0 +1,48 @@
+.zero{
+	width: 1050px;
+	height: 300px;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+.one,.two,.three{
+	float: left;
+	display: inline-block;
+}
+
+.one{
+	width: 480px;
+	height: 250px;
+	border: 1px solid #000;
+	margin: 20px;
+}
+
+.two{
+	width: 210px;
+	height: 120px;
+	border: 1px solid #000;
+	margin: 50px 10px 10px 15px;
+}
+
+.three{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #000;
+	margin: 45px 10px 0px 10px;
+}
+
+.btn-group{
+	overflow: hidden;
+}
+
+.btn-group >*{
+	float: left;
+}
+
+.dst{
+	background-color: red;	
+}
+
+*{
+	background-color: white;
+}
