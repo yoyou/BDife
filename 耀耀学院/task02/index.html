@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task02</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Style/a.css">
+</head>
+<body>
+	<form action="a.php">
+		<div>
+			<label for="uname">名称</label>
+			<input type="text" name="username" id="uname">
+			<article>
+				<p class="hint_name hint">必填，长度为4~13个字符</p>
+				<p class="wrong_name wrong">名称不能为空</p>
+			</article>
+		</div>
+		<div>
+			<label for="pass1">密码</label>
+			<input type="password" name="password1" id="pass1">
+			<article>
+				<p class="pass1_right right">密码可用</p>				
+			</article>
+		</div>
+		<div class="four">
+			<label for="pass2">密码确认</label>
+			<input type="password" name="password2" id="pass2">
+			<article>
+				<p class="pass2_hint hint">再次输入相同密码</p>
+				<p class="pass2_right right">密码一致</p>
+			</article>
+		</div>
+		<div>
+			<label for="mmail">邮箱</label>
+			<input type="mail" name="mymail" id="mmail">
+			<article>
+				<p class="mail_wrong wrong">邮箱格式错误</p>				
+			</article>
+		</div>
+		<div>
+			<label for="phone">手机</label>
+			<input type="text" name="myphone" id="phone">
+			<article>
+				<p class="right num_right">手机格式正确</p>		
+			</article>
+		</div>
+		<input type="button" name="sub" id="su_btn" value="提交">
+	</form>
+	<script type="text/javascript" src="js/a.js"></script>
+</body>
+</html>

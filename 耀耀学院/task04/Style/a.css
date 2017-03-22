@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 50px;
+	width: 712px;
+	border-width: 0px;
+}
+
+td{
+	width: 40px;
+	height: 58px;
+	text-align: center;
+}
+
+tr>td:nth-child(1){
+	border: 0px;
+}
+
+th{
+	border: 0px;
+}
+
+.forward{
+	background: blue;
+	width: 40px;
+	height: 10px;
+}
+
+.body{
+	background: red;
+	width: 40px;
+	height: 30px;
+}
+
+.dst{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	overflow: hidden;
+}

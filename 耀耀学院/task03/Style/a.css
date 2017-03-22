@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+body >div{
+	display: inline-block;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+main{
+	text-align: center;
+}
+
+main >div{
+	display: inline-block;
+	margin-top: 160px;
+}
+
+label{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+
+input[type=radio]{
+	margin-left: 60px;
+}
+
+div>select:nth-child(2){
+	width: 60px;
+	border-radius: 3px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+div>select:nth-child(3){
+	width: 120px;
+	border-radius: 3px;
+}
+
+.unit{
+	display: none;
+}
+
