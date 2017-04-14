@@ -3,17 +3,30 @@
 	padding: 0;
 }
 
+input,button,textarea,select{
+	outline:none;
+}
 
+option{
+	border:0px;
+}
 
 body{
 	margin: 0 auto;
-	max-width: 1280px;
-	height: 4554px;	
+	width: 1275px;
+	height: 4566px;	
+	font-size:16px;
+	/*box-shadow: 1px 1px 3px #aaaaaa;*/
+	border:1px solid #aaaaaa;
+	/*overflow:hidden;*/
+	z-index:2;
 }
 
 header{
 	background-color: #fff;
 	height: 56px;
+	width: 1275px;
+	float:left;
 }
 /*logo*/
 header>img{
@@ -26,7 +39,7 @@ header>img{
 
 header> span{
 	float: left;
-	font-size: 21px;
+	font-size: 1.32em;
 	font-family: 黑体;
 	line-height: 56px;
 	margin-left: 10px;
@@ -41,14 +54,42 @@ header nav{
 
 header ul{
 	list-style: none;
-	font-size: 14px;
+	font-size: 0.88em;
 	font-family: "微软雅黑";
 }
 
-header nav li{
-	margin-left: 46px;
+.nav_ul{
+	overflow:hidden;
+}
+
+.nav_ul li{
+	margin-left: 25px;
 	float: left;
 	color: #787b83;
+	width:65px;
+}
+
+.nav_ul a{
+	overflow:hidden;
+	text-decoration:none;
+	color:#787b83;
+	width:68px;
+	text-align:center;
+	display:inline-block;
+}
+
+.nav_ul .navLink a{
+	color:#e74f4d;
+	border-bottom:4px solid #e74f4d;
+	height:35px;
+}
+
+.nav_ul a:visited{
+	color:#787b83;
+}
+
+.nav_ul a:active{
+	color:#787b83;
 }
 
 /*登入按鈕*/
@@ -63,10 +104,15 @@ header nav li{
 	text-decoration: none;
 	color: #ea6f6e;
 	display: inline-block;
-	//width: 26px;
-	//margin-left: 4px;
 	line-height: 18px;
+	width:32px;
+	vertical-align:middle;
 }
+
+.login>img{
+	vertical-align:middle;
+}
+
 footer{
 	height: 416px;
 }
@@ -80,7 +126,7 @@ footer{
 }
 
 .footer-link > h1{
-	font-size: 21px;
+	font-size: 1.32em;
 	font-family: "黑体";
 	margin-bottom: 10px;
 }

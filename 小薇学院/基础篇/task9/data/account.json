@@ -1,0 +1,11 @@
+{
+	"status":1,
+	"message":"",
+	"result":[
+		{
+			"name":"ABC123",
+			"collect":110,
+			"fans":313
+		}
+	]
+}

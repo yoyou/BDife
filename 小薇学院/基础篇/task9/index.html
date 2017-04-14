@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>task9</title>
+		<link rel="stylesheet" type="text/css" href="css/part1.css">
+		<link rel="stylesheet" type="text/css" href="css/part2.css">
+		<link rel="stylesheet" type="text/css" href="css/tcal.css" />
+		<script type="text/javascript" src="js/tcal.js"></script> 
+	</head>
+	<body>
+		<header class="topbar">
+			<img src="img/logo.png" alt="logo" class="topbar_logo">
+			<p class="login"><img src="img/loginP.png" class="icon"><a href="javascript:;">登录</a></p>
+			<input type="text" name="search" id="search" class="inSearch">	
+		</header>
+		<main>
+			<aside>
+				<div class="user">
+					<div class="outerCir"><div class="innerCir"></div></div>
+					<span class="username"></span>
+				</div>
+				<div class="collect">
+					<div class="number"></div>
+					<div class="type">收藏</div>
+				</div>
+				<div class="fans">
+					<div class="number"></div>
+					<div class="type">粉丝</div>
+				</div>
+				<div class="clearfloat"></div>
+				<ul class="asideList">
+					<li class="personForm">
+						个人报表
+						<ul class="firLayer">
+							<li class="firLayerLi">
+								文件一
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件二
+								<ul class="secLayer">
+									<li class="secLayerLi">文档2</li>
+									<li class="secLayerLi">文档2</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件三
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="personCollect">
+						个人收藏
+						<ul class="firLayer">
+							<li class="firLayerLi">
+								文件一
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件二
+								<ul class="secLayer">
+									<li class="secLayerLi">文档2</li>
+									<li class="secLayerLi">文档2</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件三
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="myShare">
+						我的分享
+						<ul class="firLayer">
+							<li class="firLayerLi">
+								文件一
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件二
+								<ul class="secLayer">
+									<li class="secLayerLi">文档2</li>
+									<li class="secLayerLi">文档2</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件三
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="photo">
+						图库
+						<ul class="firLayer">
+							<li class="firLayerLi">
+								文件一
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件二
+								<ul class="secLayer">
+									<li class="secLayerLi">文档2</li>
+									<li class="secLayerLi">文档2</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件三
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="growRecord">
+						成长记录
+						<ul class="firLayer">
+							<li class="firLayerLi">
+								文件一
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件二
+								<ul class="secLayer">
+									<li class="secLayerLi">文档2</li>
+									<li class="secLayerLi">文档2</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件三
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="account">
+						账户信息
+						<ul class="firLayer">
+							<li class="firLayerLi">
+								文件一
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件二
+								<ul class="secLayer">
+									<li class="secLayerLi">文档2</li>
+									<li class="secLayerLi">文档2</li>
+								</ul>
+							</li>
+							<li class="firLayerLi">
+								文件三
+								<ul class="secLayer">
+									<li class="secLayerLi">文档1</li>
+									<li class="secLayerLi">文档1</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+			</aside>
+			<article>
+				<nav class="path">
+					<ul class="linkPath">
+						<li class="mainDir"><a href="javascript:;">C站</a></li>
+						<li class="event"><span>/</span><a href="javascript:;">个人报表</a></li>
+						<li class="file"><span>/</span><a href="javascript:;">文件一</a></li>
+						<li class="doc"><span>/</span><a href="javascript:;">文档一</a></li>
+					</ul>
+				</nav>
+				<section class="form_sec">
+					<form action="./data/priceList.json" method="POST" class="form1">
+						<div class="searchIndex">
+							<label>查询项</label>
+							<select>
+								<option>第一项</option>	
+							</select>
+						</div>
+						<div class="sellBoth"> 
+							<div class="buy">
+								<label>买方</label>
+								<select>
+									<option>小A</option>	
+								</select>
+							</div>
+							<div class="sell">
+								<label>卖方</label>
+								<select>
+									<option>小C</option>	
+								</select>
+							</div>
+						</div>
+						<div class="change">换</div>
+						<div class="message">
+							<div class="data">
+								<label>日期</label>
+								<input type="text" name="date" class="tcal" value="" />
+								<label>总耗时</label>
+								<select>
+									<option>8天</option>
+								</select>
+							</div>
+							<div class="complNum">
+								<label>人数</label>
+								<select>
+									<option>10人</option>
+								</select>
+								<label>成交项</label>
+								<select>
+									<option>10项</option>
+								</select>
+							</div>
+						</div>
+						<button class="search" type="submit">搜索</button>
+					</form>
+				</section>
+				<section class="priceList">
+					<div class="left"></div>
+					<div class="container">
+						<ul class="priList">
+							<li class="price focus"><div class="time">10:00 am</div><div class="num">1200</div></li>
+							<li class="price"><div class="time">11:00 am</div><div class="num">1300</div></li>
+							<li class="price"><div class="time">12:00 am</div><div class="num">1200</div></li>
+							<li class="price"><div class="time">01:00 pm</div><div class="num">1400</div></li>
+							<li class="price"><div class="time">02:00 pm</div><div class="num">1500</div></li>
+							<li class="price"><div class="time">03:00 pm</div><div class="num">1800</div></li>
+							<li class="price"><div class="time">04:00 pm</div><div class="num">1900</div></li>
+							<li class="price"><div class="time">05:00 pm</div><div class="num">2000</div></li>
+							<li class="price"><div class="time">06:00 pm</div><div class="num">2100</div></li>
+							<li class="price"><div class="time">07:00 pm</div><div class="num">2200</div></li>
+						</ul>
+					</div>
+					<div class="right"></div>
+					<div class="history">历史查询</div>
+				</section>
+				<p class="total">2016年4月份统计</p>
+				<section class="dealList">
+					<div class="dealNum"><div class="dealtotal">133311<div class="cjl">成交量</div></div><div class="colorBlock"></div></div>
+					<div class="dealNum"><div class="dealtotal">133311<div class="cjl">成交量</div></div><div class="colorBlock"></div></div>
+					<div class="dealNum"><div class="dealtotal">133311<div class="cjl">成交量</div></div><div class="colorBlock"></div></div>
+					<div class="dealNum"><div class="dealtotal">133311<div class="cjl">成交量</div></div><div class="colorBlock"></div></div>
+				</section>
+				<section class="materials model">
+					<header>第一组项目</header>
+					<article class="proj">
+						<button class="cli" data-index=0>项目一</button>
+						<button data-index=1>项目一</button>
+						<button data-index=2>项目一</button>
+						<button data-index=3>项目一</button>								
+						<button data-index=4>项目一</button>
+						<div class="tableContainer">
+							<table>
+								<tbody>
+									<tr>
+										<td>购买材料一</td>
+										<td>购买材料一</td>
+										<td>购买材料一</td>
+										<td>购买材料一</td>
+									</tr>
+									<tr>
+										<td>购买材料二</td>
+										<td>购买材料二</td>
+										<td>购买材料二</td>
+										<td>购买材料二</td>
+									</tr>
+									<tr>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+									</tr>
+									<tr>
+										<td>购买材料六</td>
+										<td>购买材料六</td>
+										<td>购买材料六</td>
+										<td>购买材料六</td>
+									</tr>
+									<tr>
+										<td>购买材料十三</td>
+										<td>购买材料十三</td>
+										<td>购买材料十三</td>
+										<td>购买材料十三</td>
+									</tr>
+									<tr>
+										<td>购买材料二十</td>
+										<td>购买材料二十</td>
+										<td>购买材料二十</td>
+										<td>购买材料二十</td>
+									</tr>
+								</tbody>
+							</table>								
+						</div>
+					</article>
+				</section>
+				<section class="model statement">
+					<header>第一组项目</header>
+					<article>
+						<h3>标题</h3>
+						<input type="text" placeHolder="项目报表三">
+						<div class="stateTable">
+							<div class="statePrice">
+								<h3>价格</h3>
+								<input type="text" placeHolder="158">				
+							</div>
+							<div class="dutyMan">
+								<h3>负责人</h3>
+								<input type="text" placeHolder="小A">
+							</div>
+							<div class="detail">
+								<h3>详细描述</h3>
+								<textarea placeholder="该项目目前负责人是......"></textarea>
+							</div>
+							<div class="stateFooter">
+								<input type="checkbox" id="" name="" checked>
+								<label>遵守保密协议</label>
+							</div>
+							<button class="search">搜索</button>
+						</div>
+					</article>
+				</section>	
+				<section class="model dateTable">
+					<header>日历</header>
+					<article>
+					</article>					
+				</section>	
+				<section class="model rankList">
+					<header>汽车行业排行榜</header>
+					<article>
+						<div class="tab">
+							<div class="tabHead">
+								<div class="tabH">排名</div>
+								<div class="tabH">品牌</div>
+								<div class="tabH">搜索指数</div>
+							</div>
+							<div class="tabBody">
+								<div class="tabrow">
+									<div class="tabcell  tabindex">1</div>
+									<div class="tabcell">大众</div>
+									<div class="index tabcell">48912001<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">2</div>
+									<div class="tabcell">丰田</div>
+									<div class="index tabcell">29307333<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">3</div>
+									<div class="tabcell">奥迪</div>
+									<div class="index tabcell">23139070<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">4</div>
+									<div class="tabcell">本田</div>
+									<div class="index tabcell">29307333<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">5</div>
+									<div class="tabcell">福特</div>
+									<div class="index tabcell">22885564<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">6</div>
+									<div class="tabcell">宝马</div>
+									<div class="index tabcell">21444077<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">7</div>
+									<div class="tabcell">现代</div>
+									<div class="index tabcell">20114969<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">8</div>
+									<div class="tabcell">起亚</div>
+									<div class="index tabcell">19251680<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">9</div>
+									<div class="tabcell">奔驰</div>
+									<div class="index tabcell">19172837<div class="process"><div class="pro"></div></div></div>
+								</div>
+								<div class="tabrow">
+									<div class="tabcell tabindex">10</div>
+									<div class="tabcell">别克</div>
+									<div class="index tabcell">18544027<div class="process"><div class="pro"></div></div></div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>	
+			</article>
+		</main>
+
+		<script src="js/a.js"></script>
+	</body>
+</html>

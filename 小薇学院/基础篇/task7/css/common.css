@@ -1,8 +1,10 @@
 .banner{
+	width:1164px;
 	height: 692px;
 	background: url("../img/banner-bg.png") no-repeat;
 	overflow: hidden;
 	padding-left: 112px;
+	margin-left:-1px;
 }
 
 .banner h1{
@@ -48,7 +50,7 @@
 	overflow: hidden;
 	list-style: none;
 	text-align: center;
-	width: 166px;
+	width: 165px;
 	height: 200px;
 	margin-top: 45px;
 	font-size: 14px;
@@ -90,11 +92,13 @@
 }
 
 .index-select{
+	width:1274px;
+	/*margin-left:-1px;*/
 	height: 340px;
 	background: url("../img/select-bg.png");
 	text-align: center;
 	color: #fff;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .index-select >h1{
@@ -121,14 +125,16 @@
 	border: 1px solid #be4f48;
 	-webkit-appearance:none;
 	-moz-appearance:none;
+	appearance:none;
 	background: url("../img/select-img.png") no-repeat 95% 50%;
 	background-color: #fff;
 	color: #a8aaaa;
 }
 
+.index-select select::-ms-expand { display: none; }
+
 .index-select option{
 	background-color: #e3e3e4;
-	border: 1px solid #be4f48;
 	color: #a8aaaa;
 }
 
@@ -451,7 +457,7 @@
 }
 
 .form >article div{
-	font-size: 7px;
+	font-size: 12px;
 	font-family: "宋体";
 	color: #c3c2c2;
 	position: absolute;
@@ -508,11 +514,13 @@
 	background: #ededee;
 	width: 620px;
 	height: 110px;
+	resize:none;
+	overflow:hidden;
 }
 
 .form-list >.text-area{
 	line-height: 15px;
 	width: 625px;
 	height: 120px;
-	border: 0px;	
+	border: 0px;
 }
